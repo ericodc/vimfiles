@@ -230,15 +230,15 @@ if has("gui_running")
     "tell the term has 256 colors
     set t_Co=256
 
-    colorscheme molokai
+    colorscheme railscasts
     set guitablabel=%M%t
     set lines=40
     set columns=115
 
     if has("gui_gnome")
         set term=gnome-256color
-        colorscheme molokai
-        set guifont=Monospace\ Bold\ 12
+        colorscheme railscasts2
+        set guifont=Monospace\ normal\ 11
     endif
 
     if has("gui_mac") || has("gui_macvim")
